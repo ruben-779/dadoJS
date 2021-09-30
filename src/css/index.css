@@ -1,0 +1,14 @@
+#app{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#dado {
+    font-size: 200px;
+    text-align: center;
+    grid-area: 1/2/2/3;
+}
+button {
+    grid-area: 2/2/3/3;
+}
+
